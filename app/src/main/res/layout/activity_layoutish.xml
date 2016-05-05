@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <pl.droidsonroids.crazylayout.TouchedTextView
+        android:id="@+id/text_first_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@drawable/card_background"
+        android:padding="15dp"
+        auto:state="collapsed"/>
+
+    <pl.droidsonroids.crazylayout.CardsLayout
+        android:id="@+id/cards_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        auto:minChildWidth="150dp"
+        auto:childHeaderHeight="50dp">
+
+        <pl.droidsonroids.crazylayout.TouchedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some text"
+            android:background="@drawable/card_background"
+            android:padding="15dp"
+            auto:state="collapsed"/>
+
+        <pl.droidsonroids.crazylayout.TouchedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some text nanana"
+            android:background="@drawable/card_background"
+            android:padding="15dp"
+            auto:state="collapsed"/>
+
+        <pl.droidsonroids.crazylayout.TouchedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some text nanana"
+            android:background="@drawable/card_background"
+            android:padding="15dp"
+            auto:state="collapsed"/>
+
+        <pl.droidsonroids.crazylayout.TouchedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Some text"
+            android:background="@drawable/card_background"
+            android:padding="15dp"
+            auto:state="expanded"/>
+
+        <pl.droidsonroids.crazylayout.TouchedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Some text nanana"
+            android:background="@drawable/card_background"
+            android:padding="15dp"
+            auto:state="collapsed"/>
+
+        <pl.droidsonroids.crazylayout.TouchedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Some text nanana"
+            android:background="@drawable/card_background"
+            android:padding="15dp"
+            auto:state="collapsed"/>
+
+    </pl.droidsonroids.crazylayout.CardsLayout>
+</LinearLayout>
